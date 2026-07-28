@@ -1,0 +1,30 @@
+{
+  "id": "ai-doc-parser",
+  "pluginKey": "@official-plugins/ai-doc-parser",
+  "pluginVersion": "1.0.16",
+  "name": "发票文件解析",
+  "description": "在FinOps Portal文档模块中，将上传的发票文件解析为纯文本，用于后续结构化提取。",
+  "icon": "",
+  "paramsSchema": {
+    "required": [
+      "invoice_file"
+    ],
+    "type": "object",
+    "properties": {
+      "invoice_file": {
+        "type": "array",
+        "format": "plugin-file-url",
+        "description": "待解析的发票文件URL",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "formValue": {
+    "fileUrl": "{{input.invoice_file}}"
+  },
+  "createdAt": 1785134215309,
+  "updatedAt": 1785134215309,
+  "createdBy": 7579671511905078492
+}
