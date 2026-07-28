@@ -2,6 +2,7 @@
 </script>
 
 <template>
-  <!-- 暫時清空，後續再放你正式頁面 -->
-  <div>網站首頁</div>
+  <div style="font-size:28px;color:#111;padding:40px;">
+    ✅ 網站首頁部署成功
+  </div>
 </template>
