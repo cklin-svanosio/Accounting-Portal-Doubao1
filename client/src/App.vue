@@ -1,7 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <!-- 暫時清空，後續再放你正式頁面 -->
+  <div>網站首頁</div>
 </template>
